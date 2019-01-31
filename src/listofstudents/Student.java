@@ -13,6 +13,9 @@ package listofstudents;
 public class Student {
   private String name;
   private int id;
+  private String DoB;
+  
+  private int maxHrs;
   
   
   public Student()
@@ -25,6 +28,7 @@ public class Student {
   {
       this.name = givenName;
       this.id = givenId;
+      
   }
   
   public void setName (String givenName)
@@ -39,6 +43,10 @@ public class Student {
   public void setId(int givenId)
   {
       this.id = givenId;
+      /**
+       * 
+       * 
+       */
   }
   public int getId()
   {
